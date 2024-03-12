@@ -65,15 +65,15 @@ body {
 }
 .letter {
   position: absolute;
-  background: white;
+  background: rgb(249, 231, 231);
   width: 230px;
   height: 180px;
   top: 10px;
   left: 10px;
-  transition: 0.2s;
+  transition: 1.2s;
 }
 .envelope:hover .letter {
-  transform: translateY(-100px);
+  transform: translateY(-150px);
   z-index: 2;
 }
 .text1 {
@@ -104,10 +104,10 @@ body {
   left: 20px;
   transform: rotate(-45deg);
   box-shadow: -5px 10px 90px red;
-  animation: untoldcoding 0.8s linear infinite;
+  animation: Freakdux 0.8s linear infinite;
 }
 
-@keyframes untoldcoding {
+@keyframes Freakdux {
   0% {
     transform: rotate(-45deg) scale(1.05);
   }
@@ -137,12 +137,13 @@ body {
   border-radius: 50px;
 }
 button {
-  background-color: #815ac0;
-  border: none;
-  position: relative;
+  background-color: #7878ce;
+  border:#ffffff
+  position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
-  left:50%;
-  padding: 20px;
+  top: 10%;
+  left:10%;
+  padding: 5px;
 
 } 
+ht 
