@@ -73,7 +73,7 @@ body {
   transition: 1.2s;
 }
 .envelope:hover .letter {
-  transform: translateY(-180px);
+  transform: translateY(-200px);
   z-index: 2;
 }
 .text1 {
